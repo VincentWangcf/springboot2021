@@ -11,7 +11,7 @@ public abstract class ExportOperate {
      * @return 是否成功导出文件
      */
     public boolean export(String data) {
-//使用工厂方法 demo
+//使用工厂方法
         ExportFileApi api = factoryMethod();
         return api.export(data);
     }
