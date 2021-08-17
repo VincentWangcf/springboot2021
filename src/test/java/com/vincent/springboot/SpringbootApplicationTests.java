@@ -13,6 +13,11 @@ class SpringbootApplicationTests {
 
 		Api api = new Impl();
 		api.test1("哈哈，不要紧张，只是个测试而已！");
-	}
+		System.out.println("不可以这样的去做这种的事情的");
+        Impl impl = new Impl();
+
+
+
+    }
 
 }
