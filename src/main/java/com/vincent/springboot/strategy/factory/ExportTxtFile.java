@@ -5,7 +5,7 @@ package com.vincent.springboot.strategy.factory;
  */
 public class ExportTxtFile implements ExportFileApi {
     public boolean export(String data) {
-//简单示意一下，这里需要操作文件
+//简单示意一下，这里需要操作文件  qw
         System.out.println("导出数据" + data + "到文本文件");
         return true;
     }
