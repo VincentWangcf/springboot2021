@@ -8,7 +8,7 @@ public abstract class ExportOperate {
      * 导出文件
      *
      * @param data 需要保存的数据
-     * @return 是否成功导出文件
+     * @return 是否成功导出文件   demo
      */
     public boolean export(String data) {
 //使用工厂方法
