@@ -15,7 +15,7 @@ public class Index {
 
     @PostMapping(value = "/index")
     public String index() {
-        //todo
+        //todo   demo
         map.put("date",new Date());
         return "1";
     }
